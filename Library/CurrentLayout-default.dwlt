@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 444}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 394}
   m_MaxSize: {x: 10004, y: 14044}
   vertical: 1
-  controlID: 79
+  controlID: 80
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -292,8 +292,8 @@ MonoBehaviour:
     y: 0
     width: 279
     height: 1067
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 72}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -418,9 +418,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.35141957, y: 0.11366367, z: -0.077146724}
+    m_Target: {x: 0.441, y: 0, z: 0}
     speed: 2
-    m_Value: {x: 0.35141957, y: 0.11366367, z: -0.077146724}
+    m_Value: {x: 0.441, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 31
@@ -449,13 +449,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.30830616, y: -0.6541083, z: 0.33334097, w: -0.604971}
+    m_Target: {x: -0.3247172, y: 0.5917208, z: -0.28165522, w: -0.68202084}
     speed: 2
-    m_Value: {x: -0.30780327, y: -0.6550096, z: 0.33380032, w: -0.6039842}
+    m_Value: {x: -0.32470796, y: 0.59170395, z: -0.2816472, w: -0.6820014}
   m_Size:
-    m_Target: 2.8989549
+    m_Target: 2.930028
     speed: 2
-    m_Value: 2.598955
+    m_Value: 2.630028
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -592,13 +592,13 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 588
-    width: 960
-    height: 550
+    y: 569
+    width: 962
+    height: 552
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -3608
+  m_LastSelectedObjectID: -23292
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -628,9 +628,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 5ceeffff6afbffff
+      m_SelectedIDs: ec320000
+      m_LastClickedID: 13036
+      m_ExpandedIDs: 6afbffffe2320000ec320000f8320000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -693,20 +693,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\KMAT4\Documents\GitHub\ARMazeGame\ARMazeGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 182d0000
-    m_LastClickedID: 11544
-    m_ExpandedIDs: 00000000182d000000ca9a3bffffff7f
+    m_SelectedIDs: a42e0000
+    m_LastClickedID: 11940
+    m_ExpandedIDs: 000000008e2e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -734,7 +734,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 7c270000
     m_LastClickedID: 10108
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 000000008e2e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
