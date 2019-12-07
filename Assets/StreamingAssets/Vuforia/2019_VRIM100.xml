@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Joshua_Seo_Business_Card_Design" size="0.050800 0.036286" />
+    <ImageTarget name="Joseph_Z_Business_Card" size="0.088900 0.052230" />
+    <ImageTarget name="Kendal_Mitchell_Business_Card" size="0.088900 0.053340" />
+  </Tracking>
+</QCARConfig>

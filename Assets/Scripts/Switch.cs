@@ -20,5 +20,6 @@ public class Switch : MonoBehaviour
             Door.SetActive(false);
         }
 
+
     }
 }

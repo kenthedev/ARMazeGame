@@ -5,9 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody rb;
-
     public Joystick joystick;
-
     private float horizontalMove = 0f;
     private float verticalMove = 0f;
 
@@ -21,8 +19,10 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        //float moveHorizontal = Input.GetAxis("Horizontal");
-        //float moveVertical = Input.GetAxis("Vertical");
+        float moveHorizontal = Input.GetAxis("Horizontal");
+        float moveVertical = Input.GetAxis("Vertical");
+        
+        /*
         horizontalMove = joystick.Horizontal * speed;
         verticalMove = joystick.Vertical * speed;
 
@@ -50,9 +50,10 @@ public class PlayerController : MonoBehaviour
         else
         {
             verticalMove = 0f;
-        }
+        } */
         // x: moveHorizontal, y: speed, moveVertical
-        Vector3 movement = new Vector3(horizontalMove, speed, verticalMove);
+        // Vector3 movement = new Vector3(horizontalMove, speed, verticalMove);
+        Vector3 movement = new Vector3(moveHorizontal, speed, moveVertical);
 
         rb.AddForce(movement);
     }
