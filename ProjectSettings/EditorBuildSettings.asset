@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/LevelTest.unity
-    guid: e444382ca7bef26488b16c6956d79960
+    path: Assets/Scenes/ARMazeGame.unity
+    guid: c1495ac1a552504438f00998a8f0c7c0
+  - enabled: 0
+    path: Assets/Scenes/DragonBall_Test.unity
+    guid: 890c8d6e8b3699c4488d23a22e7787d4
   m_configObjects: {}

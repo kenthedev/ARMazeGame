@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Card_Texture_Level_Four" size="8.500000 11.000000" />
+    <ImageTarget name="Card_Texture_Level_Three" size="8.500000 11.000000" />
+    <ImageTarget name="Card_Texture_Level_Two" size="8.500000 11.000000" />
+    <ImageTarget name="Card_Texture" size="8.500000 11.000000" />
+  </Tracking>
+</QCARConfig>
